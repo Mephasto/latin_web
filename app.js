@@ -73,3 +73,9 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+var port = process.env.PORT || 7000;
+
+app.listen(port, function () {
+  console.log('Latinamerica IT LLC Website listening on port ' + port + '!');
+});

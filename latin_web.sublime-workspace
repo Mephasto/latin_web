@@ -1,0 +1,238 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"serv",
+				"services-inner"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 119.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"ss html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ss css",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/itpnicolas/Code/latin_web"
+	],
+	"file_history":
+	[
+		"/Users/itpnicolas/Code/itpartner/views/services.handlebars",
+		"/Users/itpnicolas/Code/itpartner/views/networks.handlebars",
+		"/Users/itpnicolas/Code/itpartner/views/about.handlebars",
+		"/Users/itpnicolas/Code/itpartner/views/index.handlebars",
+		"/Users/itpnicolas/Code/itpartner/views/contact.handlebars",
+		"/Users/itpnicolas/Code/itpartner/views/office.handlebars",
+		"/Users/itpnicolas/Code/itpartner/views/purchase.handlebars",
+		"/Users/itpnicolas/Code/itpartner/views/servicios.handlebars",
+		"/Users/itpnicolas/Code/itpartner/views/wifi.handlebars",
+		"/Users/itpnicolas/Code/itpartner/static/css/style.sass",
+		"/Users/itpnicolas/Code/itpartner/views/layouts/header.handlebars",
+		"/Users/itpnicolas/Code/itpartner/views/layouts/main.handlebars",
+		"/Users/itpnicolas/Code/itpartner/views/footer.handlebars",
+		"/Users/itpnicolas/Code/lait-markup/src/scss/styles.scss",
+		"/Users/itpnicolas/Code/itpartner/views/index.jade",
+		"/Users/itpnicolas/Code/itpartner/.gitignore",
+		"/Users/itpnicolas/Code/latin_web/views/coverage.handlebars",
+		"/Users/itpnicolas/Code/lait-markup/src/index.html",
+		"/Users/itpnicolas/Code/latin_web/public/css/styles.css",
+		"/Users/itpnicolas/Code/latin_web/views/about.handlebars",
+		"/Users/itpnicolas/Code/latin_web/views/services.handlebars",
+		"/Users/itpnicolas/Code/lait-markup/src/about.html",
+		"/Users/itpnicolas/Code/lait-markup/src/services.html",
+		"/Users/itpnicolas/Code/lait-markup/src/js/app.js",
+		"/Users/itpnicolas/Code/lait-markup/src/header.html",
+		"/Users/itpnicolas/Code/lait-markup/src/footer.html",
+		"/Users/itpnicolas/Code/lait-markup/dist/coverage.html",
+		"/Users/itpnicolas/Code/itpartner/server.js",
+		"/Users/itpnicolas/Desktop/continue.html",
+		"/Users/itpnicolas/Code/itpartner/package.json",
+		"/Users/itpnicolas/Desktop/terminos.html",
+		"/Users/itpnicolas/Code/itpartner/views/footer.jade",
+		"/Users/itpnicolas/Code/latin_web/routes/index.js",
+		"/Users/itpnicolas/Code/latin_web/app.js",
+		"/Users/itpnicolas/Code/latin_web/views/layouts/main.handlebars",
+		"/Users/itpnicolas/Code/latin_web/views/index.handlebars",
+		"/Users/itpnicolas/Code/latin_web/views/jobs.handlebars",
+		"/Users/itpnicolas/Code/latin_web/views/maintenance.handlebars",
+		"/Users/itpnicolas/Code/latin_web/views/hardware.handlebars",
+		"/Users/itpnicolas/Code/lait-markup/dist/services.html",
+		"/Users/itpnicolas/Code/latin_web/views/layouts/footer.handlebars",
+		"/Users/itpnicolas/Code/lait-markup/dist/index.html",
+		"/Users/itpnicolas/Code/latin_web/views/layouts/header.handlebars",
+		"/Users/itpnicolas/Code/latin_web/views/header.handlebars",
+		"/Users/itpnicolas/Code/lait/index.js",
+		"/Users/itpnicolas/Code/lait/package.json"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "latin_web.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

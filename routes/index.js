@@ -25,5 +25,8 @@ router.get('/hardware', function(req, res, next) {
 router.get('/maintenance', function(req, res, next) {
   res.render('maintenance', { title: 'Maintenance' });
 });
-
+/* GET coverage. */
+router.get('/coverage', function(req, res, next) {
+  res.render('coverage', { title: 'Maintenance' });
+});
 module.exports = router;
