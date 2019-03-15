@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "/Users/itpnicolas/Code/lait-markup"
 		}
 	]
 }

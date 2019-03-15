@@ -15,6 +15,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "views/jobs.handlebars",
+			"settings":
+			{
+				"buffer_size": 22247,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/about.handlebars",
+			"settings":
+			{
+				"buffer_size": 16660,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -64,7 +82,10 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/itpnicolas/Code/latin_web"
+		"/Users/itpnicolas/Code/latin_web",
+		"/Users/itpnicolas/Code/latin_web/routes",
+		"/Users/itpnicolas/Code/latin_web/views",
+		"/Users/itpnicolas/Code/latin_web/views/layouts"
 	],
 	"file_history":
 	[
@@ -148,8 +169,69 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "views/jobs.handlebars",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21951,
+								21951
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3273.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/about.handlebars",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16660,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								346,
+								346
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
