@@ -57,9 +57,9 @@ img {
 .container {
   width: 1024px;
   margin: auto;
-  -webkit-box-shadow: 0px 0px 40px -8px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 40px -8px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 40px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 40px -8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 40px -8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 40px -8px rgba(0, 0, 0, 0.3);
 }
 
 .button {
@@ -88,6 +88,14 @@ img {
   font-size: 2.1875rem;
   line-height: 1.11;
   margin-bottom: .4375rem;
+}
+
+.main .main__banner .main__title {
+  text-align: right;
+}
+
+.main .button {
+  float: right;
 }
 
 .main__title_nomargin {
@@ -213,6 +221,10 @@ img {
 .coverage {
   background: url(../images/banner-6.jpg) no-repeat #000 center;
   height: 23.375rem;
+}
+
+.coverage .main__title {
+  text-shadow: 1px 1px 1px black;
 }
 
 .coverage__title {
@@ -410,7 +422,6 @@ ul.header__topbar-item {
   max-width: 23.75rem;
   width: calc(33.33% - 1.5rem);
   margin-left: 2.1875rem;
-  box-shadow: 0.25rem 0.0125rem 0.625rem 0.3125rem rgba(0, 0, 0, 0.15);
 }
 
 .main__featured-services-item:first-child {
@@ -424,31 +435,33 @@ ul.header__topbar-item {
 }
 
 .main__featured-services-item.profesionalservices {
-  height: 300px;
+  height: 310px;
 }
 
 .main__featured-services-item.hardwaredistribution {
-  height: 300px;
+  height: 310px;
 }
 
 .main__featured-services-item.maintenance {
-  height: 300px;
+  height: 310px;
 }
 
 .main__featured-services-item img {
-  height: 300px;
+  height: 310px;
+  max-width: none;
+  width: 310px;
 }
 
 .main__featured-services-title {
   font-size: 1.2rem;
   line-height: 1.18;
-  height: 4.6rem;
+  height: 3.2rem;
   margin-bottom: .3125rem;
   border-bottom: 1px solid #31bfd7;
 }
 
 .main__featured-services-text {
-  font: .75rem/1.4 'KarlaRegular', Helvetica, sans-serif;
+  font: .85rem/1.4 'KarlaRegular', Helvetica, sans-serif;
 }
 
 .main__banner {
@@ -558,7 +571,7 @@ ul.header__topbar-item {
 
 .main__banner_3 {
   background: url(../images/gray-bg.jpg);
-  padding: 3.125rem 0;
+  padding: 4rem 0 6rem 0rem;
   text-align: center;
   border-bottom: 0;
 }
@@ -566,6 +579,12 @@ ul.header__topbar-item {
 .main__banner_3 .main__subtitle {
   max-width: 34.375rem;
   margin: .5rem auto 0;
+}
+
+.main__banner_3 svg {
+  position: relative;
+  left: 24px;
+  margin-bottom: 20px;
 }
 
 .main__banner_4 {
@@ -613,7 +632,7 @@ ul.header__topbar-item {
 
 .company-info__text {
   margin-left: 9.375rem;
-  font: .75rem/1.5 'KarlaRegular', Helvetica, sans-serif;
+  font: .9rem/1.5 'KarlaRegular', Helvetica, sans-serif;
   margin-bottom: .625rem;
 }
 
@@ -660,7 +679,7 @@ ul.header__topbar-item {
   max-width: 22.375rem;
   margin-left: 2.0625rem;
   position: absolute;
-  top: 50%;
+  top: 47%;
   transform: translateY(-50%);
 }
 
@@ -683,7 +702,7 @@ ul.header__topbar-item {
 .services__item {
   background-color: rgba(255, 255, 255, 0.7);
   width: calc(33.33% - 1.875rem);
-  height: 8.975rem;
+  height: 12rem;
   display: inline-block;
   vertical-align: top;
   text-align: center;
@@ -694,7 +713,7 @@ ul.header__topbar-item {
 }
 
 .services__text {
-  font: .75rem/1.5 'KarlaRegular', Helvetica, sans-serif;
+  font: .9rem/1.5 'KarlaRegular', Helvetica, sans-serif;
 }
 
 .services__text span {
@@ -773,7 +792,6 @@ ul.header__topbar-item {
 
 .software-manufacturers__inner_right {
   text-align: right;
-  height: 21.0625rem;
 }
 
 .distributors {

@@ -14,8 +14,8 @@ router.get('/jobs', function(req, res, next) {
   res.render('jobs', { title: 'Jobs' });
 });
 /* GET about. */
-router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'About' });
+router.get('/company', function(req, res, next) {
+  res.render('company', { title: 'Company' });
 });
 /* GET hardware. */
 router.get('/hardware', function(req, res, next) {
