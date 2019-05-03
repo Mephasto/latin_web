@@ -28,6 +28,12 @@
   src: url("../fonts/KarlaBold.eot") format("embedded-opentype"), url("../fonts/KarlaBold.woff2") format("woff2"), url("../fonts/KarlaBold.woff") format("woff"), url("../fonts/KarlaBold.ttf") format("truetype"), url("../fonts/KarlaBold.svg#KarlaBold") format("svg");
 }
 
+@font-face {
+  font-family: 'Exo';
+  src: url("../fonts/EXOREGULAR.ttf") format("truetype");
+  src: url("../fonts/EXOREGULAR.eot") format("embedded-opentype"), url("../fonts/EXOREGULAR.woff2") format("woff2"), url("../fonts/EXOREGULAR.woff") format("woff"), url("../fonts/EXOREGULAR.ttf") format("truetype"), url("../fonts/EXOREGULAR.svg#EXOREGULAR") format("svg");
+}
+
 * {
   list-style-type: none;
   margin: 0;
@@ -285,16 +291,19 @@ img {
 
 .header__logo {
   background-color: #fff;
-  width: 9.375rem;
+  width: 12.375rem;
   height: 8.75rem;
   padding: .625rem;
   text-align: center;
+  background: url(../images/latin_it_logo.svg) center center;
+  background-size: 220%;
+  background-color: #fff;
 }
 
 .header__nav {
   background-color: #fff;
   margin-top: 5.25rem;
-  width: calc(100% - 9.375rem);
+  width: calc(100% - 12.375rem);
 }
 
 .header__nav__main, .header__nav__secondary, .header__logo, .header__nav, .header__nav-item, .header__nav__secondary-item {
@@ -636,10 +645,6 @@ ul.header__topbar-item {
   margin-bottom: .625rem;
 }
 
-.banner-5 {
-  padding: 2.8125rem;
-}
-
 .location {
   text-align: center;
   height: 13.4375rem;
@@ -673,6 +678,10 @@ ul.header__topbar-item {
   position: relative;
 }
 
+.services.maintenance {
+  padding-top: 5rem;
+}
+
 .services__info {
   display: inline-block;
   vertical-align: top;
@@ -691,12 +700,20 @@ ul.header__topbar-item {
   color: #666;
 }
 
+.services__info {
+  top: 37%;
+}
+
+.services__info_maintenance {
+  top: 50%;
+}
+
 .services__info_margin {
   margin-top: -4.375rem;
 }
 
 .services__info_hardware {
-  top: 35%;
+  top: 30%;
 }
 
 .services__item {
