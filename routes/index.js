@@ -31,11 +31,48 @@ router.get('/coverage', function(req, res, next) {
 });
 
 /*LEGACY*/
-router.get('/eng/goods.html', function(){
+
+router.get('/eng/index.html', function(req, res, next){
+	res.redirect(301, '/');
+});
+router.get('/eng/index.html', function(req, res, next){
+	res.redirect(301, '/');
+});
+router.get('/eng/company.html', function(req, res, next){
+	res.redirect(301, '/company');
+});
+router.get('/eng/services.html', function(req, res, next){
+	res.redirect(301, '/services');
+});
+router.get('/eng/goods.html', function(req, res, next){
 	res.redirect(301, '/hardware');
 });
-
-
-
+router.get('/eng/infraestructure.html', function(req, res, next){
+	res.redirect(301, '/about');
+});
+router.get('/eng/clients.html', function(req, res, next){
+	res.redirect(301, '/');
+});
+router.get('/esp/index.html', function(req, res, next){
+	res.redirect(301, '/');
+});
+router.get('/esp/index.html', function(req, res, next){
+	res.redirect(301, '/');
+});
+router.get('/esp/company.html', function(req, res, next){
+	res.redirect(301, '/company');
+});
+router.get('/esp/services.html', function(req, res, next){
+	res.redirect(301, '/services');
+});
+router.get('/esp/goods.html', function(req, res, next){
+	res.redirect(301, '/hardware');
+});
+router.get('/esp/infraestructure.html', function(req, res, next){
+	res.redirect(301, '/about');
+});
+router.get('/esp/clients.html', function(req, res, next){
+	res.redirect(301, '/');
+});
 
 module.exports = router;
