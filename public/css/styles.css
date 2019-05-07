@@ -291,7 +291,7 @@ img {
 
 .header__logo {
   background-color: #fff;
-  width: 12.375rem;
+  width: 15.375rem;
   height: 8.75rem;
   padding: .625rem;
   text-align: center;
@@ -303,7 +303,7 @@ img {
 .header__nav {
   background-color: #fff;
   margin-top: 5.25rem;
-  width: calc(100% - 12.375rem);
+  width: calc(100% - 15.375rem);
 }
 
 .header__nav__main, .header__nav__secondary, .header__logo, .header__nav, .header__nav-item, .header__nav__secondary-item {

@@ -29,4 +29,13 @@ router.get('/maintenance', function(req, res, next) {
 router.get('/coverage', function(req, res, next) {
   res.render('coverage', { title: 'Maintenance' });
 });
+
+/*LEGACY*/
+router.get('/eng/goods.html', function(){
+	res.redirect(301, '/hardware');
+});
+
+
+
+
 module.exports = router;
